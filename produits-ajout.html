@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liste des Produits</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="sidebar">
+                <a href="./index.html" title="My Market entreprise">my market</a>
+                <nav>
+                    <ul>
+                        <li>Comptabilité</li>
+                        <li>Produits</li>
+                        <li>Fournisseurs</li>
+                        <li>Commandes</li>
+                        <li>Paramètres</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="content-produits">
+                <div class="title">
+                    <h2>Ajouter un produit</h2>
+                    <button class="retour">Retour</button>
+                </div>
+                <form action="#" id="formulaires" class="formCSS">
+                    <div class="column">
+                        <div class="line">
+                            <label for="saisieReference">Référence</label>
+                            <input type="text" id="saisieReference" name="saisieReference">
+                        </div>
+                        <div class="line">
+                            <label for="selectCategorie">Catégories</label>
+                            <select id="selectCategorie" name="categorie">
+                                <option value="">Choisir la catégorie</option>
+                                <option value="telephone">Téléphone</option>
+                                <option value="television">Télévision</option>
+                                <option value="audio">Audio</option>
+                                <option value="photo">Appareils photo</option>
+                                <option value="ordi_bureau">Ordinateur de bureau</option>
+                                <option value="ordi_portable">Ordinateur portable</option>
+                                <option value="tablette">Tablette</option>
+                            </select>
+                        </div>
+                        <div class="line">
+                            <label for="idLibelle">Libellé</label>
+                            <input type="text" id="idLibelle" name="idLibelle">
+                        </div>
+                        <div class="line">
+                            <label for="selectFournisseur">Fournisseur</label>
+                            <select id="selectFournisseur" name="fournisseur">
+                                <option value="">Choisir le fournisseur</option>
+                            </select>
+                        </div>
+                        <div class="line">
+                            <label for="idPrice">Prix de vente conseillé:</label>
+                            <input type="text" id="idPrice" name="idPrice">
+                        </div>
+                        <div class="line">
+                            <label for="idPhoto">Photos</label>
+                            <input type="text" id="idPhoto" name="idPhoto">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="line-description">
+                            <label for="idDescription">Description</label>
+                            <input type="text" id="idDescription" name="idDescription">
+                        </div>
+                        <div class="stock">
+                            <input type="checkbox" id="stockCoche" name="en_stock">
+                            <label for="stockCoche">En stock</label>
+                        </div>
+                        <!--- BOUTON AJOUT PRODUIT-->
+                        <div class="cta-enregistrer">
+                            <button type="submit" id="cta-save">Enregistrer</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

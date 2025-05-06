@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liste des Produits</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="sidebar">
+                <a href="./index.html" title="My Market entreprise">my market</a>
+                <nav>
+                    <ul>
+                        <li>Comptabilité</li>
+                        <li>Produits</li>
+                        <li>Fournisseurs</li>
+                        <li>Commandes</li>
+                        <li>Paramètres</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="content">
+                <div class="title">
+                    <h2>liste des produits</h2>
+                </div>
+                <div class="search">
+                    <input type="text" id="rechercher" placeholder="Rechercher">
+                    <div id="modal" class="modal">
+                        <!------ Modal content -->
+                        <div class="modal-content">
+                            <div class="btnclose">
+                                <button class="close">X</button>
+                            </div>
+                            <!--- RECUP DATA JSON-->
+                            <div class="dataModal"></div>
+                        </div>
+                    </div>
+                    <button class="ajouter">+ Ajouter</button>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <th scope="col">Photo</th>
+                            <th scope="col">Référence</th>
+                            <th scope="col">Categorie</th>
+                            <th scope="col">Libellé</th>
+                            <th scope="col">Prix</th>
+                            <th scope="col">Stock</th>
+                            <th scope="col">Actions</th>
+                        </thead>
+                        <!--- DATA TABLEAU JS -->
+                        <tbody id="container-data"></tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
