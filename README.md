@@ -6,7 +6,7 @@
 > Plateforme de gestion d'un Backoffice en utilisant un fichier JSON pour importer les données et utilisation de l'objet LocalStorage.  
 > Utilisation du langage HTML JS ET CSS pour ce projet
 
-### ✨ [Demo](https://dev-it-seb.github.io/Backoffice/)
+### ✨ [Demo](https://schatel-dev.github.io/Backoffice/)
 
 ## Author
 
