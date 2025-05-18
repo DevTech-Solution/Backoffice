@@ -32,7 +32,7 @@
 
 ## 🚀 Démo en ligne | Live Demo
 
-🔗 [Voir la démo / View Live Demo](https://schatel-dev.github.io/Backoffice/)
+🔗 [Voir la démo / View Live Demo](https://devtech-solution.github.io/Backoffice/)
 
 ---
 
@@ -49,8 +49,7 @@
 ## 👤 Auteur | Author
 
 **Sebastien C.**  
-🎓 Promo 2025  
-🔗 GitHub : [@schatel-dev](https://github.com/schatel-dev)
+🔗 GitHub : [@DevTech-Solution](https://github.com/DevTech-Solution)
 
 ---
 
